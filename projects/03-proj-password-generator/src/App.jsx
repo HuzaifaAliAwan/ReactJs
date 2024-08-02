@@ -1,11 +1,15 @@
-import { useState, useCallback, useEffect } from "react"
+import { useState, useCallback, useEffect, useRef } from "react"
 
 function App() {
+
+  // Hooks are used here ........ 
   const [length, setlength] = useState(10);
   const [numberAllowed, setNumberAllowed] = useState(false);
   const [charAllowed, setCharAllowed] = useState(false);
   const [password, setPassword] = useState();
+  const passwordRef = useRef();
 
+  // Function to generate password
   const passwordGenerator = useCallback(
     () => {
       let pass = ''
@@ -26,6 +30,22 @@ function App() {
       setPassword
     ])
 
+  // Function to copy password to clipboard
+  const copyPasswordToClipboard = useCallback(
+    () => {
+
+      // This line is used to highlight text selection effect when user press copy button.
+      passwordRef.current?.select()
+
+      // This line is used to copy data to clipboard.
+      window.navigator.clipboard.writeText(password)
+
+      
+    },
+    [password]
+  )
+
+  // Hook to act if any change happend in the dependency
   useEffect(
     () => { passwordGenerator() },
     [length, numberAllowed, charAllowed, passwordGenerator]
@@ -44,9 +64,11 @@ function App() {
             value={password}
             placeholder="Password"
             readOnly
+            ref={passwordRef}
           />
           <button
             className="outline-none bg-blue-700 text-white px-3 py-0.5 shrink-0"
+            onClick={copyPasswordToClipboard}
           >
             Copy</button>
         </div>
