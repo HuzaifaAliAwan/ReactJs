@@ -7,7 +7,7 @@ function App() {
   const [numberAllowed, setNumberAllowed] = useState(false);
   const [charAllowed, setCharAllowed] = useState(false);
   const [password, setPassword] = useState();
-  const passwordRef = useRef();
+  const passwordRef = useRef(null);
 
   // Function to generate password
   const passwordGenerator = useCallback(
@@ -40,7 +40,7 @@ function App() {
       // This line is used to copy data to clipboard.
       window.navigator.clipboard.writeText(password)
 
-      
+
     },
     [password]
   )
