@@ -33,6 +33,7 @@ function App() {
     >
       <div className="w-full">
         <div className="w-full max-w-md mx-auto border border-gray-60 rounded-lg p-5 backdrop-blur-sm bg-white/30">
+        <h1 className='font-bold text-center my-3 text-2xl text-[#404040] hover:text-[#202020] transition-all'>Currency Convertor</h1>
           <form
             onSubmit={(e) => {
               e.preventDefault();
@@ -46,7 +47,7 @@ function App() {
                 amount={amount}
                 currencyOptions={options}
                 onAmountChange={(amount) => setAmount(amount.toFixed(2))}
-                onCurrencyChange={(currency)=>setFrom(currency)}
+                onCurrencyChange={(currency) => setFrom(currency)}
                 selectCurrency={from}
               />
             </div>
@@ -76,6 +77,16 @@ function App() {
               Convert {from.toUpperCase()} to {to.toUpperCase()}
             </button>
           </form>
+          <p
+            className='items-center text-center mt-3 font-medium text-white'
+          >
+            Created By &nbsp;
+            <a
+              href="https://www.linkedin.com/in/huzaifa-ali-6ab59b274"
+              className='hover:underline hover:font-bold transition-all'
+            >
+              Huzaifa</a>
+          </p>
         </div>
       </div>
     </div>
