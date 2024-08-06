@@ -50,12 +50,12 @@ npm run build
 This command will generate a build directory with production-ready files.
 
 ### Available Projects
-- Project 1: Color Changer
-- Project 2: Profile Card Editor
-- Project 3: Password Generator
-- Project 4: Github user Check
-- Project 5: Box Fun
-- Project 6: Currency Convertor
+- Project 1: [Color Changer](https://github.com/HuzaifaAliAwan/ReactJs/tree/main/projects/01-proj-color-changer)
+- Project 2: [Profile Card Editor](https://github.com/HuzaifaAliAwan/ReactJs/tree/main/projects/02-proj-profile-card-editor)
+- Project 3: [Password Generator](https://github.com/HuzaifaAliAwan/ReactJs/tree/main/projects/03-proj-password-generator)
+- Project 4: [Github user Check](https://github.com/HuzaifaAliAwan/ReactJs/tree/main/projects/04-proj-github-user-check)
+- Project 5: [Box Fun](https://github.com/HuzaifaAliAwan/ReactJs/tree/main/projects/05-proj-box-fun)
+- Project 6: [Currency Convertor](https://github.com/HuzaifaAliAwan/ReactJs/tree/main/projects/06-proj-currency-converter)
 
 
 ### Contributing
