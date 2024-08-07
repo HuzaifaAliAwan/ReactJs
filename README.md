@@ -56,6 +56,7 @@ This command will generate a build directory with production-ready files.
 - Project 4: [Github user Check](https://github.com/HuzaifaAliAwan/ReactJs/tree/main/projects/04-proj-github-user-check)
 - Project 5: [Box Fun](https://github.com/HuzaifaAliAwan/ReactJs/tree/main/projects/05-proj-box-fun)
 - Project 6: [Currency Convertor](https://github.com/HuzaifaAliAwan/ReactJs/tree/main/projects/06-proj-currency-converter)
+- Project 7: [React Router](https://github.com/HuzaifaAliAwan/ReactJs/tree/main/projects/07-proj-react-router)
 
 
 ### Contributing
