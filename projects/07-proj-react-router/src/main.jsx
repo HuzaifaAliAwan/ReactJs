@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client'
 import './index.css'
 import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router-dom'
 import Layout from './Layout.jsx'
-import { About, Contact, Home, User } from './components/index.js'
+import { About, Contact, Github, Home, User } from './components/index.js'
 // ###### Old Syntax to create Router
 const router = createBrowserRouter([
   {
@@ -21,6 +21,10 @@ const router = createBrowserRouter([
       {
         path: "contact",
         element: <Contact />
+      },
+      {
+        path: "github",
+        element: <Github />
       },
       {
         path: "user/:id",
