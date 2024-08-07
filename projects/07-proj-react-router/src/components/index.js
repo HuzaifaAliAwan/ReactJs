@@ -5,5 +5,6 @@ import About from './About/About.jsx'
 import Contact from './Contact/Contact.jsx'
 import User from './User/User.jsx'
 import Github from './Github/Github.jsx'
+import { GithubInfoLoader } from './Github/Github.jsx'
 
-export { Footer, Header, Home, About, Contact, User, Github }
+export { Footer, Header, Home, About, Contact, User, Github, GithubInfoLoader }
