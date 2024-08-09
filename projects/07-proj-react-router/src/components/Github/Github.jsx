@@ -24,6 +24,7 @@ function Github() {
             src={data.avatar_url} 
             alt="Person " 
             width={300}
+            className='rounded-full'
             />
         </div>
 
