@@ -1,12 +1,11 @@
+import { Component } from "./Component.jsx";
 
 function App() {
- 
-
   return (
     <>
-      Hello world 
+      <Component />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
