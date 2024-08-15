@@ -1,7 +1,12 @@
 import "./App.css";
+import UserContextProvider from "./context/UserContextProvider";
 
 function App() {
-  return <>Working with React</>;
+  return (
+    <UserContextProvider>
+      <h1>Hello world</h1>
+    </UserContextProvider>
+  );
 }
 
 export default App;
