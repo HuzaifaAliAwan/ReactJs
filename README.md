@@ -69,10 +69,10 @@ This command will generate a build directory with production-ready files.
 - Project 5: [Box Fun](https://github.com/HuzaifaAliAwan/ReactJs/tree/main/projects/05-proj-box-fun)
 - Project 6: [Currency Convertor](https://github.com/HuzaifaAliAwan/ReactJs/tree/main/projects/06-proj-currency-converter)
 - Project 7: [React Router](https://github.com/HuzaifaAliAwan/ReactJs/tree/main/projects/07-proj-react-router)
-- Project 8: [React Router](https://github.com/HuzaifaAliAwan/ReactJs/tree/main/projects/08-proj-todo-list)
-- Project 9: [React Router](https://github.com/HuzaifaAliAwan/ReactJs/tree/main/projects/09-proj-mini-context)
-- Project 10: [React Router](https://github.com/HuzaifaAliAwan/ReactJs/tree/main/projects/10-proj-theme-switcher-context-api)
-- Project 11: [React Router](https://github.com/HuzaifaAliAwan/ReactJs/tree/main/projects/11-proj-profile-card-editor-context)
+- Project 8: [Todo List](https://github.com/HuzaifaAliAwan/ReactJs/tree/main/projects/08-proj-todo-list)
+- Project 9: [Mini Context](https://github.com/HuzaifaAliAwan/ReactJs/tree/main/projects/09-proj-mini-context)
+- Project 10: [Theme Switcher Context](https://github.com/HuzaifaAliAwan/ReactJs/tree/main/projects/10-proj-theme-switcher-context-api)
+- Project 11: [Profile Card Editor Context](https://github.com/HuzaifaAliAwan/ReactJs/tree/main/projects/11-proj-profile-card-editor-context)
 
 ### Contributing
 
