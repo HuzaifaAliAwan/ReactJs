@@ -1,11 +1,5 @@
-import { Component } from "./Component.jsx";
-
 function App() {
-  return (
-    <>
-      <Component />
-    </>
-  );
+  return <></>;
 }
 
 export default App;
