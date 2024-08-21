@@ -37,7 +37,7 @@ function TaskCard() {
           </div>
           <div
             onClick={() => setIsCompleted(!isCompleted)}
-            className="flex flex-col block items-center justify-center cursor-pointer"
+            className="flex flex-col items-center justify-center cursor-pointer"
           >
             {isCompleted ? (
               <FaCheck
