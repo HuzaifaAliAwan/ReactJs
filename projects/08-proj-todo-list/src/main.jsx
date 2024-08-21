@@ -11,16 +11,12 @@ const router = createBrowserRouter([
     element: <Layout />,
     children: [
       {
-        path: "all",
+        path: "",
         element: <AllTasks />,
       },
       {
         path: "completed",
         element: <CompletedTasks />,
-      },
-      {
-        path: "add",
-        element: <AddNewTask />,
       },
     ],
   },
